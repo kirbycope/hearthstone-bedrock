@@ -6,10 +6,7 @@
 			"category": "Items"
 		},
 		"components": {
-            "minecraft:max_stack_size": 16,
-            "minecraft:icon" : {
-                "texture": "hb:hearthstone"
-            }
+            "minecraft:max_stack_size": 16
 		}
 	}
 }
