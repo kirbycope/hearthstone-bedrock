@@ -6,7 +6,8 @@
             "category": "Items"
         },
         "components": {
-            "minecraft:icon": "hb.hearthstone"
+            "minecraft:icon": "hb.hearthstone",
+            "minecraft:use_duration": 32
         }
     }
 }
