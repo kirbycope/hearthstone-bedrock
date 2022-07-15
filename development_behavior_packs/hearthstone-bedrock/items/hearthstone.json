@@ -8,7 +8,17 @@
 		"components": {
 			"minecraft:hand_equipped": false,
 			"minecraft:foil": false,
-			"minecraft:max_stack_size": 1
+			"minecraft:max_stack_size": 1,
+			"minecraft:on_use": {
+				"on_use": "hb:use_event"
+			}
+		},
+		"events": {
+			"hb:use_event": {
+				"run_command": {
+					"command": "/tp @p 0 63 0"
+				}
+			}
 		}
 	}
 }
