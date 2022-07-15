@@ -1,0 +1,40 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "A Warcraft hearthstone for Minecraft.",
+        "name": "Hearthstone Bedrock",
+        "uuid": "f8c4807f-fed2-4fd5-be32-3184e9444d62",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            16,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "Hearthstone behaviors.",
+            "type": "data",
+            "uuid": "1dfaf60d-70e2-411c-aa1d-4230a93140c3",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "a1e4703f-cbb8-4b6e-9308-e8063379ef9f",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}
