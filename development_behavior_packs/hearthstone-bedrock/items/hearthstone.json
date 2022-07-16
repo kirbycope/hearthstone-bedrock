@@ -16,7 +16,7 @@
 		"events": {
 			"hb:use_event": {
 				"run_command": {
-					"command": "/tp @p 0 63 0"
+					"command": "tp @p 0 63 0"
 				}
 			}
 		}
