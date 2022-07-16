@@ -6,9 +6,6 @@
 			"category": "items"
 		},
 		"components": {
-			"minecraft:display_name": {
-				"value": "Hearthstone"
-			},
 			"minecraft:foil": false,
 			"minecraft:hand_equipped": false,
 			"minecraft:icon": {
