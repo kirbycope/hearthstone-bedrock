@@ -10,3 +10,6 @@ A Warcraft hearthstone for Minecraft Bedrock Edition
 ## Installing the Add-on
 1. Download the [.mcaddon](https://github.com/kirbycope/hearthstone-bedrock/raw/main/hearthstone-bedrock.mcaddon) file
 1. Double-click to install using Minecraft
+1. Activate the behavior pack and resource pack for your world
+   - The world must have Holiday Creator Experiments enabled
+      - World Settings > Experiments > Holiday Creatior Features
