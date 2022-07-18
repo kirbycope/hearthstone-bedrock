@@ -14,6 +14,14 @@ A Warcraft hearthstone for Minecraft Bedrock Edition
    - The world must have Holiday Creator Experiments enabled
       - World Settings > Experiments > Holiday Creator Features
 
+## Using the Add-on
+1. `give @p hb:hearthstone`
+   - When used will _teleport_ you to the nearest Waystone entity (if one exists)
+1. `give @p hb:placer`
+   - When used it will _place_ a Waystone entity
+1. Attack the Waystone with the Hearthstone to remove it and pick up the placer
+   - Nothing else can damage the Waystone
+
 ### Image Credits
 * [hearthstone.png](/development_resource_packs/hearthstone-bedrock/textures/items/hearthstone.png) is based on [wowpedia](https://static.wikia.nocookie.net/wowpedia/images/c/cb/Inv_misc_rune_01.png/revision/latest?cb=20091028041736)
 * [pack_icon.png](/development_resource_packs/hearthstone-bedrock/pack_icon.png) is from [WoWPedia](https://static.wikia.nocookie.net/wowpedia/images/a/a7/BTNPebble-Reforged.png/revision/latest?cb=20210512144119)
