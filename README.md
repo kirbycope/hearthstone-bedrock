@@ -1,4 +1,4 @@
-![hearthstone-bedrock](https://github.com/kirbycope/hearthstone-bedrock/raw/main/development_resource_packs/hearthstone-bedrock/pack_icon.png)
+![hearthstone-bedrock](/hearthstone-bedrock.png)
 
 # hearthstone-bedrock
 A Warcraft hearthstone for Minecraft Bedrock Edition
