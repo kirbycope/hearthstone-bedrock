@@ -12,10 +12,10 @@ A Warcraft hearthstone for Minecraft Bedrock Edition
 1. Double-click to install using Minecraft
 1. Activate the behavior pack and resource pack for your world
    - The world must have Holiday Creator Experiments enabled
-      - World Settings > Experiments > Holiday Creatior Features
+      - World Settings > Experiments > Holiday Creator Features
 
 ### Image Credits
-* [hearthstone.png] is based on [wowpedia](https://static.wikia.nocookie.net/wowpedia/images/c/cb/Inv_misc_rune_01.png/revision/latest?cb=20091028041736)
+* [hearthstone.png](/development_resource_packs/hearthstone-bedrock/textures/items/hearthstone.png) is based on [wowpedia](https://static.wikia.nocookie.net/wowpedia/images/c/cb/Inv_misc_rune_01.png/revision/latest?cb=20091028041736)
 * [pack_icon.png](/development_resource_packs/hearthstone-bedrock/pack_icon.png) is from [WoWPedia](https://static.wikia.nocookie.net/wowpedia/images/a/a7/BTNPebble-Reforged.png/revision/latest?cb=20210512144119)
-* waystone.png is from [logos-worls](https://logos-world.net/wp-content/uploads/2021/02/Hearthstone-Logo.png)
-* waystone_side.png based on https://cdna.artstation.com/p/assets/images/images/028/247/612/4k/ben-thompson-hs-lox-screen-tavern-doors.jpg?1593908771
+* [waystone.png](/development_resource_packs/hearthstone-bedrock/textures/blocks/waystone.png) is from [logos-world](https://logos-world.net/wp-content/uploads/2021/02/Hearthstone-Logo.png)
+* [waystone_side.png](/development_resource_packs/hearthstone-bedrock/textures/blocks/waystone_side.png) based on https://cdna.artstation.com/p/assets/images/images/028/247/612/4k/ben-thompson-hs-lox-screen-tavern-doors.jpg?1593908771
