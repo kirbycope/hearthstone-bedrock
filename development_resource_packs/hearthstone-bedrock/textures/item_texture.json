@@ -4,6 +4,9 @@
 	"texture_data": {
         "hb:hearthstone": {
             "textures": "textures/items/hearthstone"
+        },
+        "hb:placer": {
+            "textures": "textures/items/placer"
         }
     }
 }

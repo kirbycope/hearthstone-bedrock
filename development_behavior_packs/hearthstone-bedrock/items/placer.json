@@ -2,14 +2,14 @@
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "hb:hearthstone",
+			"identifier": "hb:placer",
 			"category": "items"
 		},
 		"components": {
 			"minecraft:foil": false,
 			"minecraft:hand_equipped": false,
 			"minecraft:icon": {
-				"texture": "hb:hearthstone"
+				"texture": "hb:placer"
 			},
 			"minecraft:max_stack_size": 1,
 			"minecraft:on_use": {
@@ -17,12 +17,15 @@
 					"event": "hb:use_event",
 					"target": "self"
 				}
+			},
+			"minecraft:entity_placer":{
+				"entity" : "hb:waystone"
 			}
 		},
 		"events": {
 			"hb:use_event": {
 				"run_command": {
-					"command": "function hearth"
+					"command": "function place"
 				}
 			}
 		}

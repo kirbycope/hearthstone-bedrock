@@ -1,24 +1,29 @@
 {
-    "format_version": 2,
-    "header": {
-        "description": "A Warcraft hearthstone for Minecraft.",
-        "name": "Hearthstone Bedrock",
-        "uuid": "f8c4807f-fed2-4fd5-be32-3184e9444d62",
-        "version": [1, 0, 0],
-        "min_engine_version": [1, 16, 0]
-    },
-    "modules": [
-        {
-            "description": "Hearthstone Bedrock behavior pack",
-            "type": "data",
-            "uuid": "1dfaf60d-70e2-411c-aa1d-4230a93140c3",
-            "version": [1, 0, 0]
-        }
-    ],
-    "dependencies": [
-        {
-            "uuid": "b852163c-c8c3-43ac-928e-3c6f97b60fba",
-            "version": [1, 0, 0]
-        }
-    ]
+	"format_version": 2,
+	"header": {
+		"description": "A Warcraft hearthstone for Minecraft.",
+		"name": "Hearthstone Bedrock",
+		"uuid": "f8c4807f-fed2-4fd5-be32-3184e9444d62",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"modules": [
+		{
+			"description": "Hearthstone Bedrock behavior pack",
+			"type": "data",
+			"uuid": "1dfaf60d-70e2-411c-aa1d-4230a93140c3",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "b852163c-c8c3-43ac-928e-3c6f97b60fba",
+			"version": [1, 0, 0]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.0.8"]
+		}
+	}
 }

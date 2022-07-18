@@ -1,23 +1,24 @@
 {
-    "format_version": 2,
-    "header": {
-        "description": "A Warcraft hearthstone for Minecraft.",
-        "name": "Hearthstone Bedrock",
-        "uuid": "b852163c-c8c3-43ac-928e-3c6f97b60fba",
-        "version": [1, 0, 0],
-        "min_engine_version": [1, 16, 0]
-    },
-    "metadata": {
-        "authors": [
-            "Kirbycope"
-        ]
-    },
-    "modules": [
-        {
-            "description": "Hearthstone Bedrock resource pack",
-            "type": "resources",
-            "uuid": "a1e4703f-cbb8-4b6e-9308-e8063379ef9f",
-            "version": [1, 0, 0]
-        }
-    ]
+	"format_version": 2,
+	"header": {
+		"description": "A Warcraft hearthstone for Minecraft.",
+		"name": "Hearthstone Bedrock",
+		"uuid": "b852163c-c8c3-43ac-928e-3c6f97b60fba",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Kirbycope"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.0.8"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Hearthstone Bedrock resource pack",
+			"type": "resources",
+			"uuid": "a1e4703f-cbb8-4b6e-9308-e8063379ef9f",
+			"version": [1, 0, 0]
+		}
+	]
 }

@@ -1,0 +1,11 @@
+{
+  "format_version": "1.16.0",
+  "hb:waystone_block": {
+    "textures": {
+      "up": "waystone",
+      "down": "waystone",
+      "side": "waystone_side"
+    },
+    "sound": "stone"
+  }
+}

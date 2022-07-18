@@ -1,1 +1,4 @@
 item.hb:hearthstone=Hearthstone
+item.hb:placer=Waystone Placer
+entity.hb:waystone.name=Waystone
+tile.hb:waystone_block.name=Waystone Block
