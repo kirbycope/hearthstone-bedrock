@@ -3,10 +3,6 @@
 # hearthstone-bedrock
 A Warcraft hearthstone for Minecraft Bedrock Edition
 
-## Packaging the Add-on
-1. Open a new terminal in Visual Studio Code
-1. Run `.\pack.ps1`
-
 ## Installing the Add-on
 1. Download the [.mcaddon](https://github.com/kirbycope/hearthstone-bedrock/raw/main/hearthstone-bedrock.mcaddon) file
 1. Double-click to install using Minecraft
@@ -21,6 +17,10 @@ A Warcraft hearthstone for Minecraft Bedrock Edition
    - When used it will _place_ a Waystone entity
 1. Attack the Waystone with the Hearthstone to remove it and pick up the placer
    - Nothing else can damage the Waystone
+
+## Packaging the Add-on
+1. Open a new terminal in Visual Studio Code
+1. Run `.\pack.ps1`
 
 ### Image Credits
 * [hearthstone.png](/development_resource_packs/hearthstone-bedrock/textures/items/hearthstone.png) is based on [wowpedia](https://static.wikia.nocookie.net/wowpedia/images/c/cb/Inv_misc_rune_01.png/revision/latest?cb=20091028041736)
