@@ -27,3 +27,8 @@ A Warcraft hearthstone for Minecraft Bedrock Edition
 * [pack_icon.png](/development_resource_packs/hearthstone-bedrock/pack_icon.png) is from [WoWPedia](https://static.wikia.nocookie.net/wowpedia/images/a/a7/BTNPebble-Reforged.png/revision/latest?cb=20210512144119)
 * [waystone.png](/development_resource_packs/hearthstone-bedrock/textures/blocks/waystone.png) is from [logos-world](https://logos-world.net/wp-content/uploads/2021/02/Hearthstone-Logo.png)
 * [waystone_side.png](/development_resource_packs/hearthstone-bedrock/textures/blocks/waystone_side.png) based on [Ben Thompson's work](https://cdna.artstation.com/p/assets/images/images/028/247/612/4k/ben-thompson-hs-lox-screen-tavern-doors.jpg?1593908771)
+
+## Releasing
+Pushing a tag that starts with `v` (for example `git tag v1.0.0 && git push origin v1.0.0`) runs the Release workflow in `.github/workflows/release.yml`, which builds the add-on and attaches `hearthstone-bedrock.mcaddon` to a GitHub Release.
+
+To build it locally, run `python tools/build_addon.py`. It writes `build/hearthstone-bedrock.mcaddon`, which git ignores, and leaves the committed `hearthstone-bedrock.mcaddon` as it is.
