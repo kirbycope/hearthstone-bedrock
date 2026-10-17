@@ -1,18 +1,17 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.21.60",
 	"minecraft:entity": {
 		"description": {
 			"identifier": "hb:waystone",
 			"is_spawnable": false,
-			"is_summonable": true,
-			"is_experimental": false
+			"is_summonable": true
 		},
 		"components": {
 			"minecraft:damage_sensor": {
 				"triggers": [
 					{
 						"cause": "entity_attack",
-						"deals_damage": false,
+						"deals_damage": "no",
 						"on_damage": {
 							"event": "hb:pickup",
 							"filters": {
@@ -34,7 +33,7 @@
 					},
 					{
 						"cause": "all",
-						"deals_damage": false
+						"deals_damage": "no"
 					}
 				]
 			},
@@ -45,7 +44,7 @@
 		},
 		"events": {
 			"hb:pickup": {
-				"run_command": {
+				"queue_command": {
 					"command": "function pickup"
 				}
 			}

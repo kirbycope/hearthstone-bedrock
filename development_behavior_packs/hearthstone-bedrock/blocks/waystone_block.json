@@ -1,25 +1,39 @@
 {
-    "format_version": "1.16.0",
-    "minecraft:block": {
-        "description": {
-            "identifier": "hb:waystone_block",
-            "is_experimental": false,
-            "register_to_creative_menu": true
-        },
-        "components": {
-            "minecraft:creative_category": {
-                "category": "construction"
-            },
-            "minecraft:destroy_time": 1,
-            "minecraft:explosion_resistance": 5,
-            "minecraft:friction": 0.6,
-            "minecraft:flammable": {
-                "flame_odds": 0,
-                "burn_odds": 0
-            },
-            "minecraft:map_color": "#FFFFFF",
-            "minecraft:block_light_absorption": 0,
-            "minecraft:block_light_emission": 0.250
-        }
-    }
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "hb:waystone_block",
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 5
+			},
+			"minecraft:friction": 0.4,
+			"minecraft:flammable": false,
+			"minecraft:map_color": "#FFFFFF",
+			"minecraft:light_dampening": 0,
+			"minecraft:light_emission": 4,
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "waystone_side",
+					"render_method": "opaque"
+				},
+				"up": {
+					"texture": "waystone",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "waystone",
+					"render_method": "opaque"
+				}
+			}
+		}
+	}
 }

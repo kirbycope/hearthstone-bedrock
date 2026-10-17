@@ -1,32 +1,24 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.21.90",
 	"minecraft:item": {
 		"description": {
 			"identifier": "hb:placer",
-			"category": "items"
-		},
-		"components": {
-			"minecraft:foil": false,
-			"minecraft:hand_equipped": false,
-			"minecraft:icon": {
-				"texture": "hb:placer"
-			},
-			"minecraft:max_stack_size": 1,
-			"minecraft:on_use": {
-				"on_use": {
-					"event": "hb:use_event",
-					"target": "self"
-				}
-			},
-			"minecraft:entity_placer":{
-				"entity" : "hb:waystone"
+			"menu_category": {
+				"category": "items"
 			}
 		},
-		"events": {
-			"hb:use_event": {
-				"run_command": {
-					"command": "function place"
-				}
+		"components": {
+			"minecraft:icon": "hb:placer",
+			"minecraft:display_name": {
+				"value": "item.hb:placer"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:entity_placer": {
+				"entity": "hb:waystone"
+			},
+			"hb:run_function": {
+				"function": "place",
+				"on": "use_on"
 			}
 		}
 	}
