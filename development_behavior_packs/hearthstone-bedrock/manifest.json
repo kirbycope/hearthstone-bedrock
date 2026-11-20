@@ -1,10 +1,10 @@
 {
 	"format_version": 2,
 	"header": {
-		"description": "A Warcraft hearthstone for Minecraft.",
+		"description": "A Warcraft hearthstone for Minecraft (v1.1.1)",
 		"name": "Hearthstone Bedrock",
 		"uuid": "f8c4807f-fed2-4fd5-be32-3184e9444d62",
-		"version": [1, 1, 0],
+		"version": [1, 1, 1],
 		"min_engine_version": [1, 26, 0]
 	},
 	"modules": [
@@ -12,21 +12,21 @@
 			"description": "Hearthstone Bedrock behavior pack",
 			"type": "data",
 			"uuid": "1dfaf60d-70e2-411c-aa1d-4230a93140c3",
-			"version": [1, 1, 0]
+			"version": [1, 1, 1]
 		},
 		{
 			"description": "Hearthstone and waystone use",
 			"type": "script",
 			"language": "javascript",
 			"uuid": "f6e437a8-1c02-4cfa-9841-612732b3430b",
-			"version": [1, 1, 0],
+			"version": [1, 1, 1],
 			"entry": "scripts/main.js"
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "b852163c-c8c3-43ac-928e-3c6f97b60fba",
-			"version": [1, 1, 0]
+			"version": [1, 1, 1]
 		},
 		{
 			"module_name": "@minecraft/server",
